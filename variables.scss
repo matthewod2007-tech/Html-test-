@@ -1,0 +1,33 @@
+$color: red;
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: $color;
+  text-align: center;
+}
+
+ul {
+  color: $color;
+}
+
+a {
+  color: $color;
+
+  &:hover {
+    color: blue;
+  }
+}
+
+form {
+  color: $color;
+  text-align: center;
+
+  /* Nested selector targeting elements with class="Main" inside form */
+  .Main {
+    background-color: grey;
+    color: $color;
+  }
+}

@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+ul {
+  color: red;
+}
+
+a {
+  color: red;
+}
+
+form {
+  color: red;
+  text-align: center;
+  /* Nested selector targeting <element id="Main"> inside form */
+}
+form .Main {
+  background-color: grey;
+  color: red;
+}
+
+/*# sourceMappingURL=variables.css.map */
